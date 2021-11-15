@@ -1,10 +1,10 @@
 //write your code here
-function findLongestWord(arr){
-  let str = arr[0];
-	for(let i = 1; i < arr.length; i++){
-		if(arr[i].length > str.length){
-			str = arr[i];		
+const findLongestWord = (arr) =>{
+  let string = arr[0];
+	for(let str of arr){
+		if(str.length > string.length){
+			string = str;		
     }
   }
-  return str;
+  return string;
 }
